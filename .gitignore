@@ -1,8 +1,13 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+# Python environment
+.venv/
 
-# large files
-data/derived-data/finetuned_distilbert_biodiv/*
-outputs/checkpoints/*
+# Python caches and notebooks
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Large generated model outputs
+data/derived-data/finetuned_distilbert_biodiv/
+analyses/outputs/checkpoints/*
+analyses/outputs/logs/

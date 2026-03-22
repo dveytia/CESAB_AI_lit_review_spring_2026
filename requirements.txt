@@ -1,0 +1,27 @@
+# Core ML / NLP (fine-tuning and pretrained models)
+transformers>=4.40.0
+torch>=2.2.0
+datasets>=2.18.0
+scikit-learn>=1.4.0
+evaluate>=0.4.1
+accelerate>=0.26.0
+
+# Data
+pandas>=2.2.0
+numpy>=1.26.0
+
+# LangChain stack (prompting, parsing, RAG)
+langchain>=1.0.0,<2.0
+langchain-core>=1.0.0,<2.0
+langchain-community>=0.4.0,<1.0
+langchain-huggingface>=1.0.0,<2.0
+langchain-ollama>=1.0.0,<2.0
+langchain-text-splitters>=1.0.0,<2.0
+pydantic>=2.6.0
+
+# RAG — vector store and PDF reading
+faiss-cpu>=1.8.0
+pypdf>=4.2.0
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.29.0
